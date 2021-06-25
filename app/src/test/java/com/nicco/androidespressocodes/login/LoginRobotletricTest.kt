@@ -69,8 +69,6 @@ class LoginRobotletricTest {
      */
     @Test
     fun `Another option of how to do unit test with roboletric`() {
-        ActivityScenario.launch(LoginActivity::class.java)
-
         RUN_UNIT_TEST(robot) {
             GIVEN { typeTextLogin() }
             GIVEN { typeTextSenha() }
