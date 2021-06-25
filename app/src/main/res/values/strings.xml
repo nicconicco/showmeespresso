@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AndroidEspressoCodes</string>
+    <string name="login">Login</string>
+    <string name="hint_login">Digite sua senha</string>
+    <string name="senha">Senha</string>
+    <string name="hint_senha">Digite sua senha</string>
+    <string name="descricao_titulo">Espresso Exemplos</string>
+    <string name="outra_atividade">Outra atividade foi chamada</string>
 </resources>
