@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nicco.androidespressocodes">
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 
+    <!-- If you want to see how its work, just change the action.Main to what activity do you need to see working -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,11 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidEspressoCodes">
-        <activity android:name=".list.ListActivity"></activity>
-        <!-- If you want to see how its work, just change the action.Main to what activity do you need to see working -->
+        <activity android:name=".list.ListActivity"/>
+        <activity android:name=".dialer.ContactsActivity" />
         <activity android:name=".login.LoginActivity" />
         <activity android:name=".login.AnotherActivity" />
-        <activity android:name=".toast.ToastActivity">
+        <activity android:name=".toast.ToastActivity" />
+
+        <activity android:name=".dialer.DialerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

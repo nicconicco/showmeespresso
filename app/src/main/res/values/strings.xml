@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidEspressoCodes</string>
+    <string name="app_name">Show Me Espresso works</string>
     <string name="login">Login</string>
     <string name="hint_login">Digite sua senha</string>
     <string name="senha">Senha</string>
@@ -12,4 +12,9 @@
     <string name="middle">This is the middle!</string>
     <string name="message">Show Toast Message</string>
     <string name="toast_sendo_mostrado">Toast sendo mostrado</string>
+    <string name="type_a_phone_number">Digite um numero</string>
+    <string name="button_dial_number">botao de acao</string>
+    <string name="button_pick_contact">botao de ir para contatos</string>
+    <string name="warning_call_phone_permission">This app requires \'call phone\' permission to run, go to settings and provide the rights permissions</string>
+    <string name="contacts_activity_placeholder">This a placeholder Activity for a contacts screen.         This activity is never opened and does not contain any real contact data for         keeping this sample simple and focused.</string>
 </resources>
