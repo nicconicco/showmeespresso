@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidEspressoCodes">
-        <!--If you want to see how its work, just change the action.Main to what activity do you need to see working-->
-        <activity android:name=".login.LoginActivity"></activity>
+        <activity android:name=".list.ListActivity"></activity>
+        <!-- If you want to see how its work, just change the action.Main to what activity do you need to see working -->
+        <activity android:name=".login.LoginActivity" />
         <activity android:name=".login.AnotherActivity" />
-        <activity android:name=".list.ListActivity">
+        <activity android:name=".toast.ToastActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
