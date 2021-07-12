@@ -66,6 +66,9 @@ dependencies {
     // List Espresso helper
     androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.4.0'
 
+    // Espresso Web
+    androidTestImplementation 'androidx.test.espresso:espresso-web:3.4.0'
+
     // Roboletric
     testImplementation 'org.robolectric:robolectric:4.4'
     testImplementation 'androidx.test.espresso:espresso-intents:3.4.0'
