@@ -22,7 +22,8 @@
         <activity android:name=".login.AnotherActivity" />
         <activity android:name=".toast.ToastActivity" />
         <activity android:name=".dialer.DialerActivity" />
-        <activity android:name=".webview.WebViewActivity">
+        <activity android:name=".webview.WebViewActivity"/>
+        <activity android:name=".sharepref.SharePreferencesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
