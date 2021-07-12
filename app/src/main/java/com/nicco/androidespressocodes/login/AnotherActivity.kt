@@ -1,7 +1,8 @@
-package com.nicco.androidespressocodes
+package com.nicco.androidespressocodes.login
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.nicco.androidespressocodes.R
 
 class AnotherActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

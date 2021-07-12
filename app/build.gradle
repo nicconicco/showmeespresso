@@ -7,6 +7,10 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
+    lintOptions {
+        abortOnError false
+    }
+
     defaultConfig {
         applicationId "com.nicco.androidespressocodes"
         minSdkVersion 16
@@ -15,6 +19,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -51,9 +56,13 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     testImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
+    // Espresso
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
     androidTestImplementation 'androidx.test:runner:1.1.0'
     androidTestImplementation 'androidx.test:rules:1.1.0'
+
+    // List Espresso helper
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.4.0'
 
     // Roboletric
     testImplementation 'org.robolectric:robolectric:4.4'

@@ -1,7 +1,7 @@
 package com.nicco.androidespressocodes.utils
 
 import androidx.test.core.app.ActivityScenario
-import com.nicco.androidespressocodes.LoginActivity
+import com.nicco.androidespressocodes.login.LoginActivity
 
 /**
  * Each test Robot in our application (UI test Robot or Unit test Robot) should extend BaseRobot

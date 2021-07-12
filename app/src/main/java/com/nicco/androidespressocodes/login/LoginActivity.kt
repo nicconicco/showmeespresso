@@ -1,4 +1,4 @@
-package com.nicco.androidespressocodes
+package com.nicco.androidespressocodes.login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.nicco.androidespressocodes.R
 
 class LoginActivity : AppCompatActivity() {
     val etLogin by lazy { findViewById<EditText>(R.id.etLogin) }

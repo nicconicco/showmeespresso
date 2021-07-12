@@ -6,8 +6,6 @@ import androidx.test.espresso.action.ViewActions
 import androidx.test.espresso.intent.Intents.intended
 import androidx.test.espresso.intent.matcher.IntentMatchers.hasComponent
 import androidx.test.espresso.matcher.ViewMatchers.*
-import com.nicco.androidespressocodes.AnotherActivity
-import com.nicco.androidespressocodes.LoginActivity
 import com.nicco.androidespressocodes.R
 
 

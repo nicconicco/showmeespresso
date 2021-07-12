@@ -5,12 +5,8 @@ import androidx.test.core.app.ActivityScenario
 import androidx.test.espresso.intent.Intents
 import androidx.test.espresso.intent.matcher.IntentMatchers
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.nicco.androidespressocodes.AnotherActivity
-import com.nicco.androidespressocodes.LoginActivity
 import com.nicco.androidespressocodes.R
 import com.nicco.androidespressocodes.utils.*
-import io.mockk.MockKAnnotations
-import io.mockk.impl.annotations.RelaxedMockK
 import org.junit.After
 import org.junit.Before
 import org.junit.Test

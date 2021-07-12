@@ -12,7 +12,7 @@ import androidx.test.espresso.intent.matcher.IntentMatchers
 import androidx.test.espresso.matcher.RootMatchers.isDialog
 import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.*
-import com.nicco.androidespressocodes.AnotherActivity
+import com.nicco.androidespressocodes.login.AnotherActivity
 import org.hamcrest.Matcher
 
 class RobotUtils {
