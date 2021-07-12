@@ -17,4 +17,5 @@
     <string name="button_pick_contact">botao de ir para contatos</string>
     <string name="warning_call_phone_permission">This app requires \'call phone\' permission to run, go to settings and provide the rights permissions</string>
     <string name="contacts_activity_placeholder">This a placeholder Activity for a contacts screen.         This activity is never opened and does not contain any real contact data for         keeping this sample simple and focused.</string>
+    <string name="button_open_camera">Abrir camera</string>
 </resources>
