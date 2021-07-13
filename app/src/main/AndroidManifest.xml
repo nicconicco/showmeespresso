@@ -15,6 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidEspressoCodes">
+        <activity android:name=".bundleintent.GetBundleActivity" />
         <activity android:name=".image.ImageViewerActivity" />
         <activity android:name=".list.ListActivity" />
         <activity android:name=".dialer.ContactsActivity" />
@@ -22,8 +23,9 @@
         <activity android:name=".login.AnotherActivity" />
         <activity android:name=".toast.ToastActivity" />
         <activity android:name=".dialer.DialerActivity" />
-        <activity android:name=".webview.WebViewActivity"/>
-        <activity android:name=".sharepref.SharePreferencesActivity">
+        <activity android:name=".webview.WebViewActivity" />
+        <activity android:name=".sharepref.SharePreferencesActivity" />
+        <activity android:name=".bundleintent.BundleIntentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
